@@ -13,6 +13,9 @@ N/A
 
 To use this tool, inspect the page using dev tools by right clicking your mouse then scrolling down to inspect. Once there click the console tab to see what topics I learned and a random suggestion of what topic to study.
 
+## How to contribute
+Please make a pull request with any notes you would like to add and I will review it and approve/deny the request.
+
 ## Credits
 Me :)
 
