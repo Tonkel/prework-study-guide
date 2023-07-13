@@ -1,26 +1,36 @@
-var topics = ["Html", "CSS", "Git", "Javascript"];
+var topics = ["HTML", "CSS", "Git", "JavaScript"];
 
-var i = 0;
-for(var i = 0; i < topics.length; i++) {
-    console.log(topics[i])
-}
+var randomtopic = topics[Math.floor(Math.random() * topics.length)]
 
-
-/*
-if (topic === 'HTML') {
-  console.log("Let's study HTML!");
-} else if (topic === 'CSS') {
-  console.log("Let's study CSS!");
-} else if (topic === 'Git') {
-  console.log("Let's study Git!");
-} else if (topic === 'JavaScript') {
-  console.log("Let's study JavaScript!");
-} else {
-  console.log('Please try again!');
+function listTopics() {
+    
+    for(var x = 0; x < topics.length - 1; x++) {
+        console.log(topics[x])
+    }
 };
 
+function selectTopic() {
+    if (randomtopic === 'HTML') {
+    console.log("Let's study HTML!");
+    } else if (randomtopic === 'CSS') {
+     console.log("Let's study CSS!");
+    } else if (randomtopic === 'Git') {
+    console.log("Let's study Git!");
+    } else if (randomtopic === 'JavaScript') {
+    console.log("Let's study JavaScript!");
+    } else {
+    console.log('Please try again!');
+    }
+};
 
-var shapes = ["triangle", "square", "pentagon", "circle"];
+console.log("Here are the topics we learned through Prework")
+listTopics()
+console.log("Which topic should we study first?")
+selectTopic()
+
+
+
+/*var shapes = ["triangle", "square", "pentagon", "circle"];
 console.log(shapes[0]);
 
 var x = 0;
@@ -29,6 +39,6 @@ x < shapes.length
 for(var x = 0; x < shapes.length; x++) {
 
     console.log(shapes[x])
-}
+};
 */ 
 
